@@ -1,5 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+
 <head>
   <style>
     /* Custom CSS for layout */
@@ -30,20 +33,19 @@
 <body style="overflow: auto;">
 <header style="height: 68px;border-radius: 10px;" class="border bg-white text-dark py-4">
   <h1 class="zusam">Zusammenfassung</h1>
-  <a href="#" class="text-dark close-cross" onclick="closeHeader()">&times;</a>
+  <a href="bewerb.html" class="text-dark close-cross" onclick="closeHeader()">&times;</a>
 
 </header>
-<div class="inline-item">
-  <div class="container mt-5">
+  <div class="container mt-5" style=" max-width: 100%; padding: 20px;">
   <table id="table1" class="table  table-bordered">
-    <caption style="color: #024588;caption-side: top;font-weight: bold;font-size: 25px">Kontakt</caption>
+    <caption style="color: #024588;caption-side: top;font-weight: bold;font-size: 25px;margin-top: 0px">Kontakt</caption>
     <tbody>
     <tr style="background-color: #64da9f" class="text-white">
       <td>Name</td>
       <td>Vorname</td>
       <td>Nachname</td>
     </tr>
-    <tr >
+    <tr>
       <td><br></td>
       <td><br></td>
       <td><br></td>
@@ -84,17 +86,16 @@
   <button class="btn text-white" onclick="confirmNotes()">Notiz hinzufügen</button>
 </div>
 </div>
-</div>
+
 
 <!-- second table-->
 
-  <div class="container mt-5">
-    <div class="inline-item">
-  <table id="table2" class="table  table-bordered ">
+  <div class="container">
+  <table id="table2" class="table  table-bordered " style=" max-width: 100%; padding: 20px;">
     <caption style="color: #024588;caption-side: top;font-weight: bold;font-size: 20px">Antworten</caption>
     <tbody>
     <tr style="background-color: #64da9f" class="text-white">
-      <td>Für welche Stelle interessierst du dich Hannover,VZ,ab sofort</td>
+      <td>Für welche Stelle interessierst du dich Hannover📍,🕐VZ,🚀ab sofort</td>
     </tr>
     <tr>
       <td><br></td>
@@ -121,7 +122,6 @@
     </tr>
     </tbody>
   </table>
-</div>
 </div>
 <script>
   function closeHeader() {
